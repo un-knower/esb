@@ -29,3 +29,6 @@ test/
 maven-status/
 #project
 .project
+#product auto
+.classpath
+.settings
