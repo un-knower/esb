@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1501233128326
+Build-Jdk: 1.8.0_66
+Built-By: cgt
+Bundle-Description: CXF example using OSGi instead of JBI
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache ServiceMix
+Bundle-SymbolicName: cxf-osgi
+Bundle-Version: 7.0.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.servicemix.examples.cxf;uses:="javax.jws,org.
+ apache.cxf.interceptor,org.apache.cxf.message,org.apache.cxf.phase,org.
+ apache.http";version="7.0.1"
+Import-Package: javax.jws;version="[2.0,3)",javax.net.ssl,org.apache.com
+ mons.io;version="[2.0,3)",org.apache.cxf.interceptor;version="[3.1,4)",
+ org.apache.cxf.message;version="[3.1,4)",org.apache.cxf.phase;version="
+ [3.1,4)",org.apache.cxf.transport.http;version="[3.1,4)",org.apache.htt
+ p,org.apache.http.client,org.apache.http.client.entity,org.apache.http.
+ client.methods,org.apache.http.conn.socket,org.apache.http.conn.ssl,org
+ .apache.http.entity,org.apache.http.impl.client,org.apache.http.message
+ ,org.apache.http.util,javax.wsdl,javax.xml.namespace,org.springframewor
+ k.beans.factory.config
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-3.3.0.201609221906
