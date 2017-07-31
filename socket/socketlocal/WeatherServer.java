@@ -40,7 +40,7 @@ public class WeatherServer {
                         // 6.关闭流
                         dis.close();
                         dos.close();
-                        serverSocket.close();
+                        //serverSocket.close();
                     }catch(Exception e){
                         e.printStackTrace();
                     }
