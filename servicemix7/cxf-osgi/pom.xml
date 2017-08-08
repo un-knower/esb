@@ -80,6 +80,8 @@
 						<Export-Package>
 							org.apache.servicemix.examples.cxf
 						</Export-Package>
+						<Embed-Dependency>commons-io;httpclient;httpcore</Embed-Dependency>
+						<Embed-Directory>lib</Embed-Directory>
 					</instructions>
 				</configuration>
 			</plugin>
